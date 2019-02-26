@@ -74,7 +74,7 @@
 }
 
 div#preloader {
-    background: #ffffff url("../../../../assets/images/front/loader.gif") no-repeat scroll center center;
+    background: #ffffff url("../../../images/front/loader_1.gif") no-repeat scroll center center;
     height: 100%;
     left: 0;
     overflow: visible;

@@ -404,7 +404,7 @@ body .container.body .right_col {
 }
 body {
     color: #73879C;
-    background: #1b3779;
+    background: #808080;
     font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -2797,7 +2797,13 @@ ul.project_files li a i {
 }
 .login_wrapper h1{
     padding: 20px 0px;
-    background: #1d1c1c;
+    background: #191970;
+    color: #fff;
+}
+
+.login_wrapper h3{
+    padding: 20px 0px;
+    background: #1b6d85;
     color: #fff;
 }
 .login_form{

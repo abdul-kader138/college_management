@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title><?php echo $this->lang->line('login'). ' | ' . SMS;  ?></title>
-        <link rel="icon" href="<?php echo IMG_URL; ?>favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="<?php echo IMG_URL; ?>oneclick.png" type="image/x-icon" />
         <!-- Bootstrap -->
         <link href="<?php echo VENDOR_URL; ?>bootstrap/bootstrap.min.css" rel="stylesheet">
         <!-- Font Awesome -->
@@ -22,7 +22,7 @@
             <section>
                 <center>
                     <?php  if(UPLOAD_PATH.'logo/'.$this->global_setting->brand_logo){ ?>
-                        <img  src="<?php echo UPLOAD_PATH.'logo/'.$this->global_setting->brand_logo; ?>" style="max-width: 100px;" alt="">
+                        <img  src="<?php echo UPLOAD_PATH.'logo/'.$this->global_setting->brand_logo; ?>" style="max-width: 150px;max-height: 80px" alt="">
                     <?php }else{ ?>
                         <img  width="100" height="100" src="<?php echo IMG_URL; ?>/sms-logo.png">
                     <?php } ?>
@@ -30,7 +30,7 @@
                 </center>
             </section>
             <div class="form login_form">
-                <section><h1 class="text-center"><?php echo $this->lang->line('login'); ?></h1></section>    
+                <section><h3 class="text-center"><?php echo $this->lang->line('login'); ?></h3></section>
                 <section class="login_content">
                     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
                         <p class="red"><?php echo $this->session->flashdata('error'); ?></p>
@@ -49,9 +49,9 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <input type="submit" name="submit" value="<?php echo $this->lang->line('login'); ?>" class="btn btn-primary"/>
                     </div>
-                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <a class="reset_pass" href="<?php echo site_url('auth/forgot') ?>"><?php echo $this->lang->line('lost_your_password'); ?></a>;
-                    </div>
+<!--                     <div class="col-md-6 col-sm-6 col-xs-12">-->
+<!--                        <a class="reset_pass" href="--><?php //echo site_url('auth/forgot') ?><!--">--><?php //echo $this->lang->line('lost_your_password'); ?><!--</a>;-->
+<!--                    </div>-->
                     <div class="clearfix"></div>                        
                     <?php echo form_close(); ?>
                 </section>

@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************Promotion.php**********************************
- * @product name    : Global Multi School Management System Express
+ * @product name    : School Management System Express
  * @type            : Class
  * @class name      : Promotion
  * @description     : Manage student promotion from one academic class to another academic class.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : OneClick Solution BD
+ * @url             : http://www.oneclicksolutionbd.com
+ * @support         : codelover138@gmail.com
+ * @copyright       : OneClick Solution BD
  * ********************************************************** */
 
 class Promotion extends MY_Controller {

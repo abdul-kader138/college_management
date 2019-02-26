@@ -18,7 +18,7 @@
         
 
         <title><?php echo $title_for_layout; ?></title>
-        <link rel="icon" href="<?php echo IMG_URL; ?>favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="<?php echo IMG_URL; ?>oneclick.png" type="image/x-icon" />
         <!-- Bootstrap -->
         <link href="<?php echo VENDOR_URL; ?>bootstrap/bootstrap.min.css" rel="stylesheet">
         
