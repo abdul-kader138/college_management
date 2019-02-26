@@ -75,15 +75,16 @@
                                 <thead>
                                     <tr>
                                         <th><?php echo $this->lang->line('sl_no'); ?></th>
-                                        <?php if($this->session->userdata('role_id') == SUPER_ADMIN){ ?>
+<!--                                        --><?php //if($this->session->userdata('role_id') == SUPER_ADMIN){ ?>
                                             <th><?php echo $this->lang->line('school'); ?></th>
-                                        <?php } ?>
+<!--                                        --><?php //} ?>
                                         <th><?php echo $this->lang->line('academic_year'); ?></th>
                                         <th><?php echo $this->lang->line('expenditure_head'); ?></th>
                                         <th><?php echo $this->lang->line('expenditure'); ?> <?php echo $this->lang->line('method'); ?></th>
                                         <th><?php echo $this->lang->line('amount'); ?></th>
+                                        <th><?php echo $this->lang->line('note'); ?></th>
                                         <th><?php echo $this->lang->line('date'); ?></th>
-                                        <th><?php echo $this->lang->line('action'); ?></th>                                            
+                                        <th><?php echo $this->lang->line('action'); ?></th>
                                     </tr>
                                 </thead>
                                 <tbody>   
@@ -91,13 +92,14 @@
                                         <?php foreach($expenditures as $obj){ ?>
                                         <tr>
                                             <td><?php echo $count++; ?></td>
-                                            <?php if($this->session->userdata('role_id') == SUPER_ADMIN){ ?>
+<!--                                            --><?php //if($this->session->userdata('role_id') == SUPER_ADMIN){ ?>
                                                 <td><?php echo $obj->school_name; ?></td>
-                                            <?php } ?>
+<!--                                            --><?php //} ?>
                                             <td><?php echo $obj->session_year; ?></td>
                                             <td><?php echo $obj->head; ?></td>
                                             <td><?php echo $this->lang->line($obj->expenditure_via); ?></td>
                                             <td><?php echo $obj->amount; ?></td>
+                                            <td><?php echo $obj->note; ?></td>
                                             <td><?php echo date($this->global_setting->date_format, strtotime($obj->date)); ?></td>
                                             <td>
                                                 <?php if(has_permission(VIEW, 'accounting', 'expenditure')){ ?>
@@ -390,11 +392,11 @@
           dom: 'Bfrtip',
           iDisplayLength: 15,
           buttons: [
-              'copyHtml5',
-              'excelHtml5',
-              'csvHtml5',
-              'pdfHtml5',
-              'pageLength'
+              { extend: 'copyHtml5', exportOptions: { columns: [ 0, 1, 2 ,3,4,5,6,7] } },
+              { extend: 'excelHtml5', 'footer': true, exportOptions: { columns: [ 0, 1, 2 ,3,4,5,6,7] } },
+              { extend: 'csvHtml5', 'footer': true, exportOptions: { columns: [ 0, 1, 2 ,3,4,5,6,7] } },
+              { extend: 'pdfHtml5', 'footer': true, exportOptions: { columns: [ 0, 1, 2 ,3,4,5,6,7] } },
+              { extend: 'pageLength', 'footer': true, exportOptions: { columns: [ 0, 1, 2 ,3,4,5,6,7] } }
           ],
            search: true,            
            responsive: true

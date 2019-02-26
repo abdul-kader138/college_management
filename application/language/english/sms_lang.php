@@ -236,6 +236,7 @@ $lang['gateway'] = "Gateway";
 $lang['email_body'] = "Email Body";
 $lang['notice_for'] = "Notice for";
 $lang['date'] = "Date";
+$lang['note'] = "Note";
 $lang['from_date'] = "From Date";
 $lang['to_date'] = "To Date";
 $lang['image'] = "Image";
