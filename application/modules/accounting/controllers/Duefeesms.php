@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************absentsms.php**********************************
- * @product name    : Global School Management System Pro
+ * @product name    : School Management System Pro
  * @type            : Class
  * @class name      : absentsms
- * @description     : Manage text sms which are send to the users.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @description     : Manage text sms which are send to the users.
+ * @author          : OneClick Solution BD
+ * @url             : http://www.oneclicksolutionbd.com
+ * @support         : codelover138@gmail.com
+ * @copyright       : OneClick Solution BD
  * ********************************************************** */
 
 class Duefeesms extends MY_Controller {

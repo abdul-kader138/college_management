@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************Smstemplate.php**********************************
- * @product name    : Global School Management System Pro
+ * @product name    : School Management System Pro
  * @type            : Class
  * @class name      : Smstemplate
- * @description     : Manage academic template.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @description     : Manage academic template.
+ * @author          : OneClick Solution BD
+ * @url             : http://www.oneclicksolutionbd.com
+ * @support         : codelover138@gmail.com
+ * @copyright       : OneClick Solution BD
  * ********************************************************** */
 
 class Smstemplate extends MY_Controller {

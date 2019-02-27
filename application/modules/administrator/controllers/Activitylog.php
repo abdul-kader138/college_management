@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************Activitylog.php**********************************
- * @product name    : Global School Management System Pro
+ * @product name    : School Management System Pro
  * @type            : Class
  * @class name      : Activitylog
  * @description     : Manage activity log.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : OneClick Solution BD
+ * @url             : http://www.oneclicksolutionbd.com
+ * @support         : codelover138@gmail.com
+ * @copyright       : OneClick Solution BD
  * ********************************************************** */
 
 class Activitylog extends MY_Controller {

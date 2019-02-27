@@ -129,7 +129,7 @@
                             <img src="<?php echo IMG_URL; ?>visa.png" alt="Visa">
                             <img src="<?php echo IMG_URL; ?>mastercard.png" alt="Mastercard">
                             <img src="<?php echo IMG_URL; ?>american-express.png" alt="American Express">
-                            <img src="<?php echo IMG_URL; ?>paypal.png" alt="Paypal">                         
+<!--                            <img src="--><?php //echo IMG_URL; ?><!--paypal.png" alt="Paypal">                         -->
                         </div>
                         <!-- /.col -->
                         <div class="col-xs-6">

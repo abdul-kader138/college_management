@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************Designation.php**********************************
- * @product name    : Global Multi School Management System Express
+ * @product name    : School Management System Express
  * @type            : Class
  * @class name      : Designation
  * @description     : Manage employee designation.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : OneClick Solution BD
+ * @url             : http://www.oneclicksolutionbd.com
+ * @support         : codelover138@gmail.com
+ * @copyright       : OneClick Solution BD
  * ********************************************************** */
 
 class Designation extends MY_Controller {

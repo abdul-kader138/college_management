@@ -103,7 +103,7 @@
                                 yAxis: {
                                     min: 0,
                                     title: {
-                                        text: '<?php echo $this->lang->line('school'); ?> <?php echo $this->lang->line('all'); ?> <?php echo $this->lang->line('statistics'); ?>'
+                                        text: '<?php echo $this->lang->line('all'); ?> <?php echo $this->lang->line('statistics'); ?>'
                                     }
                                 },
                                 tooltip: {

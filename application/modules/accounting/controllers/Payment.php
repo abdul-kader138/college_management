@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************Payment.php**********************************
- * @product name    : Global Multi School Management System Express
+ * @product name    : School Management System Express
  * @type            : Class
  * @class name      : Payment
  * @description     : Manage all kind of paymnet transaction by integrated payment gateway.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : OneClick Solution BD
+ * @url             : http://www.oneclicksolutionbd.com
+ * @support         : codelover138@gmail.com
+ * @copyright       : OneClick Solution BD
  * ********************************************************** */
 
 class Payment extends My_Controller {
@@ -943,7 +943,7 @@ class Payment extends My_Controller {
         $paytmParams = $_POST;        
         $paytmChecksum = isset($_POST["CHECKSUMHASH"]) ? $_POST["CHECKSUMHASH"] : "";
 	
-        //Verify all parameters received from Paytm pg to your application. Like MID received from paytm pg is same as your application’s MID, TXN_AMOUNT and ORDER_ID are same as what was sent by you to Paytm PG for initiating transaction etc.
+        //Verify all parameters received from Paytm pg to your application. Like MID received from paytm pg is same as your applicationï¿½s MID, TXN_AMOUNT and ORDER_ID are same as what was sent by you to Paytm PG for initiating transaction etc.
          $isValidChecksum = verifychecksum_e($paytmParams, $merchantKey, $paytmChecksum);
         
         if($isValidChecksum == "TRUE") {

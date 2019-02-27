@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************Frontend.php**********************************
- * @product name    : Global School Management System Pro
+ * @product name    : School Management System Pro
  * @type            : Class
  * @class name      : Frontend
  * @description     : Manage school Frontend Pages for guardian, student, teacher and employee.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : OneClick Solution BD
+ * @url             : http://www.oneclicksolutionbd.com
+ * @support         : codelover138@gmail.com
+ * @copyright       : OneClick Solution BD
  * ********************************************************** */
 
 class Frontend extends MY_Controller {

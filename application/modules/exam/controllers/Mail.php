@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************Mail.php**********************************
- * @product name    : Global Multi School Management System Express
+ * @product name    : School Management System Express
  * @type            : Class
  * @class name      : Mail
  * @description     : Manage email which are sent to student and guardian with student exam mark.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : OneClick Solution BD
+ * @url             : http://www.oneclicksolutionbd.com
+ * @support         : codelover138@gmail.com
+ * @copyright       : OneClick Solution BD
  * ********************************************************** */
 
 class Mail extends MY_Controller {
